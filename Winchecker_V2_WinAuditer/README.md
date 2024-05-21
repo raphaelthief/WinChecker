@@ -51,6 +51,7 @@ Wifi profiles enumeration and output :
 **Main execution :**
 - Check admin rights for execution
 - Show help menu with links to get tricks and exploit associated
+- UTF8 set
 
 
 **User and Computer infos :**
