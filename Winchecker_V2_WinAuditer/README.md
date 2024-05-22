@@ -45,6 +45,9 @@ Wifi profiles enumeration and output :
 
 ![WinAuditer](https://github.com/raphaelthief/WinChecker/blob/main/Pictures/Wifi2.JPG "WinAuditer")
 
+Help and tips :
+![WinAuditer](https://github.com/raphaelthief/WinChecker/blob/main/Pictures/RTFM.JPG "WinAuditer")
+
 
 ### Features
 
