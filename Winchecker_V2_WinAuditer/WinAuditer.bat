@@ -1049,14 +1049,74 @@ FOR /F "delims=" %%A IN ('FORFILES.EXE /P %~dp0 /M %~nx0 /C "CMD /C ECHO.!Curren
 EXIT /B
 
 
+
 REM ####################### References and help menu
 :helptips
-echo.
-echo.
-echo Will be updated soon ...
-echo.
 
-CALL :ColorLine "%E%31mPress any key to go back to main menu ..."
+echo                      ____ ^_____ ^_____ __  __   _ 
+echo                     ^|  _ ^\_   _^|  ___^|  \/  ^| ^| ^|
+echo                     ^| ^|_) ^|^| ^| ^| ^|_^  ^| ^|\/^| ^| ^| ^|
+echo                     ^|  _ ^< ^| ^| ^|  _^| ^| ^|  ^| ^| ^|_^|
+echo                     ^|_^| ^\_\^|_^| ^|_^|   ^|_^|  ^|_^| ^(_^)
+CALL :ColorLine "                    %E%36m__________%E%37m__________%E%31m_________"
+
+echo.
+echo.
+echo.
+CALL :ColorLine "%E%31m_________________________________"
+CALL :ColorLine "%E%33m[i] raphaelthief%E%32m"
+CALL :ColorLine "%E%36m[+] Github%E%32m"
+echo	    https://github.com/raphaelthief
+CALL :ColorLine "%E%36m[+] Medium%E%32m"
+echo	    https://medium.com/@raphaelthief
+CALL :ColorLine "%E%36m[+] Startme%E%32m"
+echo	    https://start.me/p/kvvGLO/cti-osint
+
+
+
+echo.
+CALL :ColorLine "%E%31m_________________________________"
+CALL :ColorLine "%E%33m[i] Interesting cheat sheet%E%32m"
+CALL :ColorLine "%E%36m[+] Privesc%E%32m"
+echo	    https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation
+echo	    https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/
+echo	    https://www.thehacker.recipes/infra/privilege-escalation/windows
+echo	    https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/
+CALL :ColorLine "%E%36m[+] Credencials%E%32m"
+echo	    https://en.hackndo.com/remote-lsass-dump-passwords/
+echo	    https://github.com/raphaelthief/WebBrowserVuln
+
+
+echo.
+CALL :ColorLine "%E%31m_________________________________"
+CALL :ColorLine "%E%33m[i] Exploits DB%E%32m"
+CALL :ColorLine "%E%36m[+] Offsec%E%32m"
+echo	    https://www.exploit-db.com/
+CALL :ColorLine "%E%36m[+] Search engines%E%32m"
+echo	    https://exploits.shodan.io/welcome
+echo	    https://sploitus.com/
+
+
+
+echo.
+CALL :ColorLine "%E%31m_________________________________"
+CALL :ColorLine "%E%33m[i] Tools%E%32m"
+CALL :ColorLine "%E%36m[+] Wesng - CVE enum%E%32m"
+echo	    https://github.com/bitsadmin/wesng
+CALL :ColorLine "%E%36m[+] Microsoft tools%E%32m"
+echo	    https://learn.microsoft.com/fr-fr/sysinternals/downloads/accesschk
+echo	    https://learn.microsoft.com/fr-fr/sysinternals/downloads/procdump
+echo	    https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+CALL :ColorLine "%E%36m[+] Mimikatz - Passwords dump%E%32m"
+echo	    https://blog.gentilkiwi.com/mimikatz
+CALL :ColorLine "%E%36m[+] Invoke-TheHash - Passwords dump%E%32m"
+echo	    https://github.com/Kevin-Robertson/Invoke-TheHash
+CALL :ColorLine "%E%36m[+] NavKiller - Webbrowser decrypt%E%32m"
+echo	    https://github.com/raphaelthief/NavKiller
+
+echo.
+echo.
+CALL :ColorLine "%E%32mPress any key to go back to main menu ..."
 PAUSE >NUL
 cls
 goto :initEOF
