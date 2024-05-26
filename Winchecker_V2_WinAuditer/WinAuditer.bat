@@ -1072,8 +1072,6 @@ echo	    https://medium.com/@raphaelthief
 CALL :ColorLine "%E%36m[+] Startme%E%32m"
 echo	    https://start.me/p/kvvGLO/cti-osint
 
-
-
 echo.
 CALL :ColorLine "%E%31m_________________________________"
 CALL :ColorLine "%E%33m[i] Interesting cheat sheet%E%32m"
@@ -1113,6 +1111,12 @@ CALL :ColorLine "%E%36m[+] Invoke-TheHash - Passwords dump%E%32m"
 echo	    https://github.com/Kevin-Robertson/Invoke-TheHash
 CALL :ColorLine "%E%36m[+] NavKiller - Webbrowser decrypt%E%32m"
 echo	    https://github.com/raphaelthief/NavKiller
+
+echo.
+CALL :ColorLine "%E%31m_________________________________"
+CALL :ColorLine "%E%33m[i] Other%E%32m"
+echo	    https://github.com/clem9669/hacktricks/
+
 
 echo.
 echo.
